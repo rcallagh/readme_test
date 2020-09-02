@@ -3,10 +3,15 @@ This is just to test how linking together READMEs works and what happens with mu
 
 This repo has a very simple file structure to test a few things:
 ### File structure
+```
 .
-+---_README.md
-+---_folder_level1
-    +--- README.md
-    +--- README_2.md
-    +---_folder_level2
-    +--- README.md
+├── README.md
+├── folder_level1
+│   ├── README.md
+│   ├── README_2.md
+│   └── folder_level2
+│       └── README.md
+```
+
+## Linking to other files
+Linking to other files is easy in markdown you just write `[link text](link/target)` for example here I link to [folder_level1](folder_level1)
